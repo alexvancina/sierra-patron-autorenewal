@@ -1,0 +1,10 @@
+certifi==2019.3.9
+chardet==3.0.4
+idna==2.8
+Jinja2==2.10.1
+MarkupSafe==1.1.1
+pkg-resources==0.0.0
+python-http-client==3.1.0
+requests==2.21.0
+sendgrid==6.0.5
+urllib3==1.24.3

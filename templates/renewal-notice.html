@@ -1,0 +1,9 @@
+{% extends "email-base.html" %}
+
+{% block content %}
+<h1>Library Account Renewed</h1>
+<p>Your library card ending in {{ barcode }} has been renewed until {{ expiration }}.</p>
+<p>The current address on your account is:</p>
+<p>{{ address }}</p>
+<p>If this is not correct, please contact the library.</p>
+{% endblock %}

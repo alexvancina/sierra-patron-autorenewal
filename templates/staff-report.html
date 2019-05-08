@@ -1,0 +1,18 @@
+{% extends "email-base.html" %}
+
+{% block content %}
+<h1>Patron Renewal Report</h1>
+<p>The following patron accounts were renewed until {{ expiration }}.</p>
+<p>These patrons were notified by email:</p>
+<ul>
+    {% for patron in patronsWithEmail %}
+    <li>{{ patron }}</li>
+    {% endfor %}
+</ul>
+<p>These patrons account were renewed but did not have an email address:</p>
+<ul>
+    {% for patron in patronsWithoutEmail %}
+    <li>{{ patron }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}

@@ -1,0 +1,6 @@
+__pycache__/*
+env/*
+reset.py
+config.py
+token.json
+
