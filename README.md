@@ -20,6 +20,7 @@ Jinja2 templates are used to format the email messages and these can be easily m
 ## Authors
 
 Alex Vancina - Helen Plum Library
+
 Stephen Wynn - Pickler Memorial Library, Truman State University
 
 ## License
